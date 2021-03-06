@@ -8,3 +8,68 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+title{
+
+}
+.container{
+  
+  height: 100vh;
+  
+}
+.group1{
+  border: solid black;
+  display:flex;
+  padding: 50px;
+
+}
+.group2{
+  
+  margin: auto;
+  margin-left: 60px;
+  border-radius: 10px;
+  
+  
+}
+.group2 header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  
+
+}
+
+.login{
+  margin-left: auto;
+  padding-left:2.5em;
+  background:#4b769b url("../images/home.png") .5em center no-repeat;
+  background-size:1.5em auto;
+  border-radius:.15em;
+  height: 40px;
+  color: white;
+  align-items: center;
+ 
+
+
+}
+main{
+  border: 0.5px solid black;
+  box-shadow: 0px 0px 10px off whitesmoke ;
+  border-radius: 10px;
+
+}
+.tagline{
+ 
+
+  
+}
+
+footer{
+display: flex;
+  justify-content: center;
+
+}
+
+footer a{
+  padding-right: 10px
+  text-decoration:none;
+}
