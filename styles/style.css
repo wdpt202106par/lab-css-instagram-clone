@@ -38,10 +38,12 @@ main {
   padding: 0px 15px 15px 15px;
 }
 
-.container {
-  height: 90%;
-  margin: auto;
+main > p{
+  width:90%;
+}
 
+.container {
+  margin: auto;
 }
 
 .tagline {
@@ -53,22 +55,29 @@ main {
 
 header {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
-
 }
 
 header>a {
-
-
+  margin-left:auto;
   background-repeat: no-repeat;
   width: 140px;
   height: 60px;
   background-color: aqua;
 }
 
-footer>ul {
-
-  list-style: none;
+footer {
   display: flex;
+  justify-content: center; 
+  text-transform: uppercase;
+  margin-top:30px;
+}
+footer>a{
+  text-decoration: none;
+  color:#51799b;
+  padding-left: 15px;
+}
+footer>span{
+  margin-left: 30px;
 }
