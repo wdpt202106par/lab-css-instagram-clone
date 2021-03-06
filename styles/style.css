@@ -21,7 +21,6 @@ body {
 .group2 {
 
   background-color: white;
-  border: 1px solid;
   width: 600px;
   margin-left: 35px;
 }
@@ -33,13 +32,11 @@ body {
 }
 
 main {
-
-  border: 1px solid;
   padding: 0px 15px 15px 15px;
 }
 
-main > p{
-  width:90%;
+main>p {
+  width: 90%;
 }
 
 .container {
@@ -55,29 +52,46 @@ main > p{
 
 header {
   display: flex;
-  
+  position: relative;
   align-items: center;
 }
 
 header>a {
-  margin-left:auto;
+  margin-left: auto;
   background-repeat: no-repeat;
+  font-weight: bold;
   width: 140px;
-  height: 60px;
-  background-color: aqua;
+  height: 45px;
+  background-color: #6e91ae;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+
+}
+
+.home-pic {
+
+  background-image: url(../images/home.png);
+  position: absolute;
+  left: 470px;
+
 }
 
 footer {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   text-transform: uppercase;
-  margin-top:30px;
+  margin-top: 30px;
 }
-footer>a{
+
+footer>a {
   text-decoration: none;
-  color:#51799b;
+  color: #51799b;
   padding-left: 15px;
 }
-footer>span{
+
+footer>span {
   margin-left: 30px;
 }
