@@ -8,6 +8,7 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   font-family: Merriweather,serif;
+  font-size:14px;
   font-style: none;
   background: linear-gradient(180deg, #4F7698 30%,white 70%) ;
 }
@@ -16,8 +17,7 @@ body {
   flex-direction: column;
 }
 .phones {
-  height: 85%;
-  width: 25vw;
+  width:35%;
 }
 .group1 {
   display: flex;
@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin: auto;
+  margin-left:40px;
 }
 header {
   display: flex;
