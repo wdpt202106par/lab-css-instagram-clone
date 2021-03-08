@@ -3,8 +3,81 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap');
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-family: Merriweather,serif;
+  font-size:14px;
+  font-style: none;
+  background: linear-gradient(180deg, #4F7698 30%,white 70%) ;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.phones {
+  width:35%;
+}
+.group1 {
+  display: flex;
+  align-items: flex-end;
+  margin: 10%;
+}
+.group2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left:40px;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+header .login {
+  border: 1px solid transparent;
+  background-color: #658BAB;
+  height: 2rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  align-items: center;
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 70%;
+}
+.login img {
+  margin-right: 5px;
+}
+header h1 {
+  flex: 1;
+}
+main {
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.tagline {
+  font-weight: bold;
+  color: #02264e;
+  font-size: 1.5rem;
+  width: 60%;
+}
+footer{
+  display:flex;
+  width: 70%;
+  justify-content: center;
+  margin:auto;
+  padding-bottom: 40px;
+}
+footer a{
+  text-decoration: none;
+  color:#4F7698;
+  margin-right: 20px;
+}
+footer:last-child{
+  color:gray;
 }
