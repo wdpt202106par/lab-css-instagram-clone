@@ -76,8 +76,8 @@ main p{
 }
 
 footer {
-  display: fl
-  justify-content: center;
+  display: flex;
+  justify-content:center;
 }
 
 footer a {
