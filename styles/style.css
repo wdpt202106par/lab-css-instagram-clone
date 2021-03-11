@@ -29,11 +29,11 @@ body {
 .group2 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
 }
 
 .login {
-  margin-left: auto;
+ margin-left: auto;
   padding-left: 2.5em;
   padding-right: 1em;
   padding-top: 0.8em;
@@ -42,7 +42,7 @@ body {
   border-radius: 0.15em;
   height: 35px;
   color: white;
-  align-items: center;
+  
   text-decoration: none;
 }
 
@@ -51,8 +51,8 @@ main {
   border-radius: 10px;
   padding: 10px 040px;
   background-color: #ffff;
-  width: 65%;
-  height: 48vh;
+  width: 50rem;
+  height: 23rem;
 }
 main p{
   text-align: justify;
@@ -66,9 +66,8 @@ main p{
 .stores{
   display: flex;
   justify-self: center;
-  margin-top: 100px;
-  margin-left: 10px;
-  height: 10%;
+  
+ 
 }
 .stores img{
   display: flex;
