@@ -3,6 +3,7 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {box-sizing:border-box;}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,9 +11,6 @@ body {
   height: 100vh;
   display: flex;
 }
-
-
-
 .group1 {
 
   display: flex;
@@ -61,10 +59,12 @@ header>div {
   width: 140px;
   height: 45px;
   background-color: #6e91ae;  
-  border-radius: 5px;
+  border-radius: 2px;
   display: flex;
   align-items: center;
-  border:1px solid #26496c;
+
+  box-shadow:0 0 .125em 1px rgba(0,0,0,.2),
+             0 1.5em 1.5em -0.5em rgba(255,255,255,.25) inset;
 }
 header>div>a{
   text-decoration: none;
